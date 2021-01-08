@@ -1,17 +1,19 @@
 import './App.css';
 import React from 'react';
 
-import Navbar from './containers/Navbar';
+
+import Topper from './containers/Topper';
 import Footer from './containers/Footer';
+import Button from 'react-bootstrap/Button';
 
 
 class App extends React.Component {
 	render(){
 		return (
 			<div className="App">
-			 <Navbar/>
+			<Topper/>
 				<header className="App-header">
-				pizza
+					<Button>pizza</Button>pizza
 				</header>
 				<Footer/>
 			</div>

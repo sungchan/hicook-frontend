@@ -41,3 +41,7 @@ div {
   border: 1px dotted #f00;
   color:#fff;
 }
+
+* {
+  color: black
+}
